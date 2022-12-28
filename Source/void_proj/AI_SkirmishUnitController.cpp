@@ -6,6 +6,7 @@
 #include "BehaviorTree/BehaviorTree.h"
 #include "BehaviorTree/BehaviorTreeComponent.h"
 #include "BehaviorTree/BlackboardComponent.h"
+#include "GameFramework/CharacterMovementComponent.h"
 
 AAI_SkirmishUnitController::AAI_SkirmishUnitController()
 {
@@ -16,7 +17,6 @@ AAI_SkirmishUnitController::AAI_SkirmishUnitController()
 void AAI_SkirmishUnitController::BeginPlay()
 {
     Super::BeginPlay();
-
     if (IsValid(BehaviorTree.Get()))
     {
         RunBehaviorTree(BehaviorTree.Get());

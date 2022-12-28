@@ -8,6 +8,7 @@
 
 
 class UBehaviorTreeComponent;
+class UCharacterMovementComponent;
 /**
  * 
  */
@@ -32,5 +33,6 @@ private:
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "AI", meta = (AllowPrivateAccess = true))
 	TObjectPtr<UBlackboardComponent> BlackboardComponent;
+
 
 };

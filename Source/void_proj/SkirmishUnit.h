@@ -50,6 +50,10 @@ private:
 	FVector CurrentWaypoint;
 	bool bMoving;
 
+	// TODO - figure out AI movement on core unit code
+	// UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "AI", meta = (AllowPrivateAccess = true))
+	// TObjectPtr<UCharacterMovementComponent> MovementComponent;
+
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 };
