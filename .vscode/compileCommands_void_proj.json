@@ -16,22 +16,6 @@
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.1\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Users\\lucas\\OneDrive\\Documents\\Unreal Projects\\void_proj\\Source\\void_proj\\SkirmishCameraActor.cpp",
-		"arguments": [
-			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe",
-			"@C:\\Users\\lucas\\OneDrive\\Documents\\Unreal Projects\\void_proj\\.vscode\\compileCommands_void_proj\\void_proj.245.rsp"
-		],
-		"directory": "C:\\Program Files\\Epic Games\\UE_5.1\\Engine\\Source"
-	},
-	{
-		"file": "C:\\Users\\lucas\\OneDrive\\Documents\\Unreal Projects\\void_proj\\Source\\void_proj\\SkirmishCameraActor.h",
-		"arguments": [
-			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe",
-			"@C:\\Users\\lucas\\OneDrive\\Documents\\Unreal Projects\\void_proj\\.vscode\\compileCommands_void_proj\\void_proj.245.rsp"
-		],
-		"directory": "C:\\Program Files\\Epic Games\\UE_5.1\\Engine\\Source"
-	},
-	{
 		"file": "C:\\Users\\lucas\\OneDrive\\Documents\\Unreal Projects\\void_proj\\Source\\void_proj\\SkirmishPlayerController.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe",
@@ -73,38 +57,6 @@
 	},
 	{
 		"file": "C:\\Users\\lucas\\OneDrive\\Documents\\Unreal Projects\\void_proj\\Source\\void_proj\\Skirmish_Unit.h",
-		"arguments": [
-			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe",
-			"@C:\\Users\\lucas\\OneDrive\\Documents\\Unreal Projects\\void_proj\\.vscode\\compileCommands_void_proj\\void_proj.245.rsp"
-		],
-		"directory": "C:\\Program Files\\Epic Games\\UE_5.1\\Engine\\Source"
-	},
-	{
-		"file": "C:\\Users\\lucas\\OneDrive\\Documents\\Unreal Projects\\void_proj\\Source\\void_proj\\UI\\BaseUI.cpp",
-		"arguments": [
-			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe",
-			"@C:\\Users\\lucas\\OneDrive\\Documents\\Unreal Projects\\void_proj\\.vscode\\compileCommands_void_proj\\void_proj.245.rsp"
-		],
-		"directory": "C:\\Program Files\\Epic Games\\UE_5.1\\Engine\\Source"
-	},
-	{
-		"file": "C:\\Users\\lucas\\OneDrive\\Documents\\Unreal Projects\\void_proj\\Source\\void_proj\\UI\\BaseUI.h",
-		"arguments": [
-			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe",
-			"@C:\\Users\\lucas\\OneDrive\\Documents\\Unreal Projects\\void_proj\\.vscode\\compileCommands_void_proj\\void_proj.245.rsp"
-		],
-		"directory": "C:\\Program Files\\Epic Games\\UE_5.1\\Engine\\Source"
-	},
-	{
-		"file": "C:\\Users\\lucas\\OneDrive\\Documents\\Unreal Projects\\void_proj\\Source\\void_proj\\UI\\SMainMenu.cpp",
-		"arguments": [
-			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe",
-			"@C:\\Users\\lucas\\OneDrive\\Documents\\Unreal Projects\\void_proj\\.vscode\\compileCommands_void_proj\\void_proj.245.rsp"
-		],
-		"directory": "C:\\Program Files\\Epic Games\\UE_5.1\\Engine\\Source"
-	},
-	{
-		"file": "C:\\Users\\lucas\\OneDrive\\Documents\\Unreal Projects\\void_proj\\Source\\void_proj\\UI\\SMainMenu.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe",
 			"@C:\\Users\\lucas\\OneDrive\\Documents\\Unreal Projects\\void_proj\\.vscode\\compileCommands_void_proj\\void_proj.245.rsp"
