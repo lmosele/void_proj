@@ -1,5 +1,0 @@
-// Temp
-
-
-#include "SkirmishCameraActor.h"
-
