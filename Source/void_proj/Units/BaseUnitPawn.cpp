@@ -72,6 +72,8 @@ void ABaseUnitPawn::BeginPlay()
 
 	SetPatrol();
     RotateTo();
+
+	  GetWorldTimerManager().SetTimer(FireRateTimerHandle, this, &ABaseUnitPawn::SetPatrol, 5.f, true);
 }
 
 

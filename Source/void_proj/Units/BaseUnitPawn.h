@@ -42,6 +42,8 @@ private:
 	bool CanMove;
 	bool IsTurning;
 
+	FTimerHandle FireRateTimerHandle;
+
 	void SetPatrol();
 	bool GetRandomPointInRadius(const FVector& Origin, float Radius, FVector& OutResult);
 
