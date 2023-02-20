@@ -57,12 +57,15 @@ protected:
 
 	/** Input handlers for SetDestination action. */
 	void OnInputStarted();
-	void OnSetDestinationTriggered();
+	
 	void OnSetDestinationReleased();
 	void OnSelectUnit();
+	void OnSetDestinationTriggered();
 
 	void OnSetCameraForwardAxis();
 	void OnSetCameraSidewaysAxis();
+
+	
 
 private:
 	FVector CachedDestination;

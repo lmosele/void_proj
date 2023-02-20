@@ -41,10 +41,10 @@ void ASkirmishPlayerController::SetupInputComponent()
 	// Set up action bindings
 	if (UEnhancedInputComponent* EnhancedInputComponent = CastChecked<UEnhancedInputComponent>(InputComponent))
 	{
-		// Pawn Control
-		EnhancedInputComponent->BindAction(SetDestinationClickAction, ETriggerEvent::Started, this, &ASkirmishPlayerController::OnInputStarted);
-		EnhancedInputComponent->BindAction(SetDestinationClickAction, ETriggerEvent::Triggered, this, &ASkirmishPlayerController::OnSetDestinationTriggered);
-		EnhancedInputComponent->BindAction(SetSelectionClickAction, ETriggerEvent::Triggered, this, &ASkirmishPlayerController::OnSelectUnit);
+		// // Pawn Control
+		// EnhancedInputComponent->BindAction(SetDestinationClickAction, ETriggerEvent::Started, this, &ASkirmishPlayerController::OnInputStarted);
+		// EnhancedInputComponent->BindAction(SetDestinationClickAction, ETriggerEvent::Triggered, this, &ASkirmishPlayerController::OnSetDestinationTriggered);
+		// EnhancedInputComponent->BindAction(SetSelectionClickAction, ETriggerEvent::Triggered, this, &ASkirmishPlayerController::OnSelectUnit);
 
 		// Camera Inputs
 		EnhancedInputComponent->BindAction(SetCameraForwardAxis, ETriggerEvent::Triggered, this, &ASkirmishPlayerController::OnSetCameraForwardAxis);
@@ -80,11 +80,13 @@ void ASkirmishPlayerController::OnSetDestinationTriggered()
 	APawn* ControlledPawn = GetPawn();
 	if (ControlledPawn != nullptr)
 	{
-		UAIBlueprintHelperLibrary::SimpleMoveToLocation(this, CachedDestination);
-		UNiagaraFunctionLibrary::SpawnSystemAtLocation(this, FXCursor, CachedDestination, FRotator::ZeroRotator, FVector(1.f, 1.f, 1.f), true, true, ENCPoolMethod::None, true);
+		// UAIBlueprintHelperLibrary::SimpleMoveToLocation(this, CachedDestination);
+		// UNiagaraFunctionLibrary::SpawnSystemAtLocation(this, FXCursor, CachedDestination, FRotator::ZeroRotator, FVector(1.f, 1.f, 1.f), true, true, ENCPoolMethod::None, true);
 
-		FVector WorldDirection = (CachedDestination - ControlledPawn->GetActorLocation()).GetSafeNormal();
-		ControlledPawn->AddMovementInput(WorldDirection, 1.0, false);
+		// FVector WorldDirection = (CachedDestination - ControlledPawn->GetActorLocation()).GetSafeNormal();
+		// ControlledPawn->AddMovementInput(WorldDirection, 1.0, false);
+
+		
 	}
 }
 
